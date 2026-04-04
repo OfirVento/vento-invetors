@@ -12,7 +12,7 @@ import type {
   RoundSettings,
   FounderAlert,
   ClosingTask,
-} from "@/generated/prisma";
+} from "@/generated/prisma/client";
 
 // Extended types with relations
 export type SponsorWithUser = Sponsor & { user: User };

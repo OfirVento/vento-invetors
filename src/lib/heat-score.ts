@@ -1,4 +1,4 @@
-import type { Invitee, DealRoomView, Meeting } from "@/generated/prisma";
+import type { Invitee, DealRoomView, Meeting } from "@/generated/prisma/client";
 
 interface HeatScoreInput {
   invitee: Invitee & {
